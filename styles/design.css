@@ -1,0 +1,143 @@
+
+header {
+  margin: 30px;
+}
+
+
+.display_flex {
+  display: flex;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px; 
+}
+
+
+.list-items {
+  display: flex;
+  gap: 20px; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+
+.nav-colour {
+  color: rgba(137, 135, 161, 1);
+  text-decoration: none;
+}
+
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* flower work */
+
+/* Parent flex box */
+.parent-div {
+  display: flex;
+  justify-content: space-between;   
+  align-items: flex-end;            
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;              
+  height: 400px;                    
+}
+
+/* Left content box */
+.child-1 {
+  width: 570px;
+ 
+  color:black;
+  padding: 20px;
+}
+
+/* Right image box */
+.child-2 {
+  width: 570px;
+  height: auto;
+}
+
+.child-2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.colour-h2{
+    color: rgba(233, 90, 8, 1);
+    font-size: 3rem;
+    font-weight: 800;
+}
+.font-h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* our planate */
+     .plannet{
+        
+        text-align: center;
+        margin: 50px;
+        
+     }
+     .plannet-header{
+        font-size: 3rem;
+        font-weight: 800;
+
+
+     }
+     .planner-col{
+        color: black;
+     }
+     .para-col{
+        font-size: 22px;
+     }
+
+     /* Flower card  */
+     .card-parent{
+       
+      display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  padding: 40px;
+  justify-items: center; 
+}
+
+     
+     .card-div{
+        width: 350px;
+  height: 500px;
+  
+  padding: 15px;
+  text-align: center;
+ 
+  
+
+     }
+     .card-img{
+        width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+     }
+     .card-title{
+       font-size: 1.1rem;
+  font-weight: 600;
+     }
+     .card-price{
+        font-size: 22px;
+        font-weight: 800;
+     }
+     .card-btn{
+        color: white;
+        background-color: rgba(233, 90, 8, 1);
+        width: 320px;
+        height: 50px;
+     }
