@@ -193,3 +193,106 @@ header {
    top: 200px;
    
 }
+
+/* deals */
+
+.flower-deals{
+ 
+   margin-top: 150px;
+   text-align: center;
+
+}
+.deals-col{
+  color: rgba(0, 0, 0, 0.5);;
+
+}
+/* hsabsah */
+  .left-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.overlay-content {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+
+
+
+/* footer section */
+.footer-1 {
+    background-image: url('news-letter-bg.png');
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    
+}
+.footer-2{
+   
+  margin-right: 500px;
+  margin-left: 400px;
+  align-items: center;
+  padding-top: 100px;
+
+}
+
+.input-field {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+
+}
+
+.inp-btn{
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  height: 30px;
+  width: 100px;
+
+}
+.footer-h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+
+/* last footer */
+
+.footer-end{
+display: flex;
+
+}
+
+
+
+.f-m-div{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  
+}
+.logo-img-f{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-img{
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+}
+.li-list{
+  color: gray;
+  line-height: 45px;
+}
